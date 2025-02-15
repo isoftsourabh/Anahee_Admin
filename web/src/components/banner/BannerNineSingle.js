@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import clsx from "clsx";
 import { Link } from "react-router-dom";
 
-const BASE_IMAGE_URL = process.env.REACT_APP_BASE_IMAGE_URL || "http://localhost:3000/images";
+const BASE_IMAGE_URL = process.env.REACT_APP_BASE_IMAGE_URL || "https://anahee-admin.onrender.com";
 
 const BannerNineSingle = ({ data, spaceBottomClass }) => {
   const imageUrl = data.images?.startsWith("http") 

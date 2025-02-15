@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3000";
+const BASE_URL = process.env.REACT_APP_BASE_URL || "https://anahee-admin.onrender.com";
 
 const BannerSix = ({ spaceTopClass, spaceBottomClass }) => {
   const [banners, setBanners] = useState([]);

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import BannerElevenSingle from "../../components/banner/BannerElevenSingle";
 
-const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3000";
+const BASE_URL = process.env.REACT_APP_BASE_URL || "https://anahee-admin.onrender.com";
 
 const BannerEleven = ({ spaceBottomClass }) => {
   const [banners, setBanners] = useState([]);
